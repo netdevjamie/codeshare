@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="RacePlace_IN_0_Web" tags="PhysicalPath">
+    <parameterEntry kind="ProviderPath" scope="contentPath" match="^C:\\Users\\Jamie\\Documents\\Visual\ Studio\ 2013\\Projects\\RacePlace\\RacePlace\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Jamie\\Documents\\Visual\ Studio\ 2013\\Projects\\RacePlace\\RacePlace\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="RaceContext-Web.config Connection String" description="RaceContext Connection String used in web.config by the application to access the database." value="Server=tcp:fi276tyhxk.database.windows.net,1433;Database=raceplaceDB;User ID=netdevjamie@fi276tyhxk;Password={your_password_here};Trusted_Connection=False;Encrypt=True;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Jamie\\Documents\\Visual\ Studio\ 2013\\Projects\\RacePlace\\RacePlace\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='RaceContext']/@connectionString" />
+  </parameter>
+</parameters>
